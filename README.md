@@ -3,7 +3,10 @@
 ## Overview
 This project simulates a distributed transactional banking system using Java RMI (Remote Method Invocation). It features a decentralized architecture where master servers manage client transactions across different regions, supported by regional servers for localized management. The system provides a graphical user interface (GUI) for both the master servers and clients, facilitating easy monitoring, management, and transaction operations.
 
+
+
 ## Code Structure
+<img src="Structure Diagram/RMI Diagram.png" alt="Backtracking Visualization" align="right" width="500" height="400">
 
 ### System Initialization
 1. **Master Servers**: The system initializes two master server instances, `MasterServerImp_1` and `MasterServerImp_2`, responsible for managing clients and transactions across different regions.
